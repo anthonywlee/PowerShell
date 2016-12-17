@@ -16,7 +16,6 @@ param(
 
 )
 
-
 ## Convert the IP address into an integer.
 ## Ref: http://dev.maxmind.com/geoip/legacy/csv/
 function get-ipint{
@@ -25,7 +24,6 @@ function get-ipint{
 
     return $ip_int
 }
-
 
 function main{
     if($Offline -eq $True){
@@ -84,5 +82,3 @@ function main{
 }
 
 . main
-
-
